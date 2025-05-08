@@ -1,0 +1,27 @@
+﻿services:
+  gamesreviews.web:
+    build:
+      context: .
+      dockerfile: src/GamesReviews.Web/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development  # Включаем Development-режим
+      - ASPNETCORE_URLS=http://*:8080      # Явно указываем URL
+      - DOTNET_USE_POLLING_FILE_WATCHER=1  # Для горячей перезагрузки файлов
+    container_name: GamesReviews_web_api
+    depends_on:
+      - db
+  db:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: artemlol228666
+      POSTGRES_DB: GamesReviews
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    container_name: GamesReviews_db
+volumes:
+  db_data:

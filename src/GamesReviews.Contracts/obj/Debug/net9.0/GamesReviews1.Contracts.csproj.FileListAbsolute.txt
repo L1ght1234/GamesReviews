@@ -1,0 +1,15 @@
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\bin\Debug\net9.0\GamesReviews1.Contracts.deps.json
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\bin\Debug\net9.0\GamesReviews1.Contracts.dll
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\bin\Debug\net9.0\GamesReviews1.Contracts.pdb
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\GamesReviews1.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\GamesReviews1.Contracts.AssemblyInfoInputs.cache
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\GamesReviews1.Contracts.AssemblyInfo.cs
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\GamesReviews1.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\GamesReviews1.Contracts.dll
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\refint\GamesReviews1.Contracts.dll
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\GamesReviews1.Contracts.pdb
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\ref\GamesReviews1.Contracts.dll
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\GamesReviews1.Contracts.csproj.AssemblyReference.cache
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\bin\Debug\net9.0\GamesReviews1.Domain.dll
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\bin\Debug\net9.0\GamesReviews1.Domain.pdb
+C:\Users\Artem\RiderProjects\GamesReviews1\GamesReviews1.Contracts\obj\Debug\net9.0\GamesRev.CD1D8210.Up2Date

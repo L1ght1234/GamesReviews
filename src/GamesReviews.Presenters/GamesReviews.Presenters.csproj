@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>GamesReviews.Presenters</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GamesReviews.Application\GamesReviews.Application.csproj" />
+      <ProjectReference Include="..\GamesReviews.Contracts\GamesReviews.Contracts.csproj" />
+      <ProjectReference Include="..\GamesReviews.Domain\GamesReviews.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
