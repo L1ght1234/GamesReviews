@@ -310,3 +310,4 @@ C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Web\obj\Debug\net9.0\
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Web\obj\Debug\net9.0\GamesReviews.Web.pdb
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Web\obj\Debug\net9.0\GamesReviews.Web.genruntimeconfig.cache
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Web\obj\Debug\net9.0\ref\GamesReviews.Web.dll
+C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Web\obj\Debug\net9.0\GamesReviews.Web.sourcelink.json

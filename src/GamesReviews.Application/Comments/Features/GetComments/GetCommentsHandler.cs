@@ -49,6 +49,7 @@ public class GetCommentsHandler : ICommandHandler<PagedResult<CommentResponse>, 
                 c.Id,
                 c.Text,
                 c.UserId,
+                c.User!.UserName ?? "Unknown",
                 c.CreatedAt,
                 c.ParentCommentId))
             .ToList();

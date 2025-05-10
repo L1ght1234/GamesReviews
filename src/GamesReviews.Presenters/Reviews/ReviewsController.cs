@@ -4,6 +4,7 @@ using GamesReviews.Application.Reviews.Features.CreateReview;
 using GamesReviews.Application.Reviews.Features.DeleteReview;
 using GamesReviews.Application.Reviews.Features.GetMyReview;
 using GamesReviews.Application.Reviews.Features.GetReview;
+using GamesReviews.Application.Reviews.Features.GetReviewById;
 using GamesReviews.Application.Reviews.Features.UpdateReview;
 using GamesReviews.Contracts;
 using GamesReviews.Contracts.Reviews;
@@ -94,6 +95,19 @@ public class ReviewsController : ControllerBase
         await handler.Handle(command, cancellationToken);
         
         return Ok(reviewId);
+    }
+
+    [HttpGet("{reviewId:guid}")]
+    public async Task<ActionResult<GetReviewResponse>> GetReviewById(
+        [FromRoute] Guid reviewId,
+        [FromServices] ICommandHandler<GetReviewResponse, GetReviewByIdCommand> handler,
+        CancellationToken cancellationToken)
+    {
+        var command = new GetReviewByIdCommand(reviewId);
+        
+        var review = await handler.Handle(command, cancellationToken);
+        
+        return Ok(review);
     }
     
 }

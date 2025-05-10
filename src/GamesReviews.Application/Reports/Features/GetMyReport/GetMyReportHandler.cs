@@ -38,6 +38,7 @@ public class GetMyReportHandler : ICommandHandler<PagedResult<GetReportResponse>
             report.Id,
             report.UserId,
             report.ReportedUserId,
+            report.ContentId,
             report.Reason,
             report.Description,
             report.Status,

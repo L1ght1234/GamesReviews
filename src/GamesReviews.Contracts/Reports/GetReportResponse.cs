@@ -6,6 +6,7 @@ public record GetReportResponse(
     Guid Id,
     Guid UserId,
     Guid ReportedUserId,
+    Guid ContentId,
     string Reason,
     string Description,
     ReportStatus Status,

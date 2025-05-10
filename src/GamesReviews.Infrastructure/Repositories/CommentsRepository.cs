@@ -18,6 +18,7 @@ public class CommentsRepository : ICommentsRepository
     public async Task<Comment?> GetByIdAsync(Guid commentId, CancellationToken cancellationToken)
     {
         return await _context.Comments
+            .Include(c => c.User)
             .FirstOrDefaultAsync(c => c.Id == commentId, cancellationToken);
     }
 
@@ -48,6 +49,7 @@ public class CommentsRepository : ICommentsRepository
     public async Task<PagedResult<Comment>> GetRootCommentsAsync(Guid reviewId, GetCommentsRequest filter, CancellationToken cancellationToken)
     {
         var query = _context.Comments
+            .Include(c => c.User)
             .Where(c => c.ReviewId == reviewId && c.ParentCommentId == null)
             .OrderByDescending(c => c.CreatedAt)
             .AsQueryable();
@@ -65,6 +67,7 @@ public class CommentsRepository : ICommentsRepository
     public async Task<PagedResult<Comment>> GetRepliesAsync(Guid parentCommentId, GetCommentsRequest filter, CancellationToken cancellationToken)
     {
         var query = _context.Comments
+            .Include(c => c.User)
             .Where(c => c.ParentCommentId == parentCommentId)
             .OrderBy(c => c.CreatedAt)
             .AsQueryable();

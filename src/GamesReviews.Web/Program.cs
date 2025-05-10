@@ -8,6 +8,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddProgramDependencies(builder.Configuration);
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.WithOrigins("http://localhost:8080");
+        policy.AllowAnyHeader();
+        policy.AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 app.UseExceptionMiddleware();
@@ -21,9 +31,10 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization(); 
-
+ 
 app.MapControllers();
 
 using (var scope = app.Services.CreateScope())

@@ -20,3 +20,4 @@ C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Domain\obj\Debug\net9
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Domain\obj\Debug\net9.0\refint\GamesReviews.Domain.dll
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Domain\obj\Debug\net9.0\GamesReviews.Domain.pdb
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Domain\obj\Debug\net9.0\ref\GamesReviews.Domain.dll
+C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Domain\obj\Debug\net9.0\GamesReviews.Domain.sourcelink.json

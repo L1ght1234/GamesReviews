@@ -28,3 +28,4 @@ C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Contracts\obj\Debug\n
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Contracts\obj\Debug\net9.0\refint\GamesReviews.Contracts.dll
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Contracts\obj\Debug\net9.0\GamesReviews.Contracts.pdb
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Contracts\obj\Debug\net9.0\ref\GamesReviews.Contracts.dll
+C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Contracts\obj\Debug\net9.0\GamesReviews.Contracts.sourcelink.json

@@ -13,6 +13,7 @@ using GamesReviews.Application.Reviews.Features.CreateReview;
 using GamesReviews.Application.Reviews.Features.DeleteReview;
 using GamesReviews.Application.Reviews.Features.GetMyReview;
 using GamesReviews.Application.Reviews.Features.GetReview;
+using GamesReviews.Application.Reviews.Features.GetReviewById;
 using GamesReviews.Application.Reviews.Features.UpdateReview;
 using GamesReviews.Application.Users.Features.DeleteUser;
 using GamesReviews.Application.Users.Features.GetMyUser;
@@ -50,6 +51,7 @@ public static class DependencyInjection
         services.AddScoped<ICommandHandler<Guid, CreateReviewCommand>, CreateReviewHandler>();
         services.AddScoped<ICommandHandler<Guid, UpdateReviewCommand>, UpdateReviewHandler>();
         services.AddScoped<ICommandHandler<Guid, DeleteReviewCommand>, DeleteReviewHandler>();
+        services.AddScoped<ICommandHandler<GetReviewResponse, GetReviewByIdCommand>, GetReviewByIdHandler>();
         
         services.AddScoped<ICommandHandler<PagedResult<GetReviewResponse>, GetMyReviewCommand>, GetMyReviewHandler>();
         services.AddScoped<ICommandHandler<Guid, RegisterCommand>, RegisterHandler>();

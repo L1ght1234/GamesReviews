@@ -36,3 +36,4 @@ C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Application\obj\Debug
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Application\obj\Debug\net9.0\refint\GamesReviews.Application.dll
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Application\obj\Debug\net9.0\GamesReviews.Application.pdb
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Application\obj\Debug\net9.0\ref\GamesReviews.Application.dll
+C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Application\obj\Debug\net9.0\GamesReviews.Application.sourcelink.json

@@ -40,3 +40,4 @@ C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Infrastructure\obj\De
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Infrastructure\obj\Debug\net9.0\refint\GamesReviews.Infrastructure.dll
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Infrastructure\obj\Debug\net9.0\GamesReviews.Infrastructure.pdb
 C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Infrastructure\obj\Debug\net9.0\ref\GamesReviews.Infrastructure.dll
+C:\Users\Artem\RiderProjects\GamesReviews\src\GamesReviews.Infrastructure\obj\Debug\net9.0\GamesReviews.Infrastructure.sourcelink.json

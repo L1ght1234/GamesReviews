@@ -15,6 +15,7 @@ namespace GamesReviews.Presenters.Reports;
 [Route("/api/reports")]
 public class ReportController : ControllerBase
 {
+    [Authorize]
     [HttpPost]
     public async Task<IActionResult> CreateReport(
         [FromServices] ICommandHandler<Guid, CreateReportCommand> handler,
